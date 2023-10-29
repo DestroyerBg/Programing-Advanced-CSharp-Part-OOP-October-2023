@@ -25,10 +25,6 @@ namespace PersonsInfo
             {
                 return firstTeam.AsReadOnly();
             }
-            private set
-            {
-                firstTeam = (List<Person>)value;
-            }
         }
 
         public IReadOnlyList<Person> ReserveTeam
@@ -36,10 +32,6 @@ namespace PersonsInfo
             get
             {
                 return reserveTeam.AsReadOnly();
-            }
-            private set
-            {
-                reserveTeam = (List<Person>)value;
             }
         }
 
