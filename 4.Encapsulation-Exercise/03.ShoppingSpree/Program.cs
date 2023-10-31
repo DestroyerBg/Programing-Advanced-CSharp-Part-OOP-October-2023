@@ -1,7 +1,7 @@
 ﻿using _03.ShoppingSpree;
 
 var persons = new List<Person>();
-var productPrices = new List<Product>();
+var productPrices = new Dictionary<string, decimal>();
 try
 {
     string[] people = Console.ReadLine()
@@ -21,9 +21,9 @@ try
         string[] currProduct = products[i].Split('=', StringSplitOptions.RemoveEmptyEntries);
         string productName = currProduct[0];
         decimal price = decimal.Parse(currProduct[1]);
-        var product = new Product(productName, price);
-        productPrices.Add(product);
+        productPrices.Add(productName, price);
     }
+
 
 }
 catch (Exception error)
@@ -37,12 +37,8 @@ while ((input = Console.ReadLine()) != "END")
     string[] data = input.Split(" ", StringSplitOptions.RemoveEmptyEntries);
     string personName = data[0];
     string productName = data[1];
-    var product = productPrices.FirstOrDefault(p => p.Name == productName);
-    var person = persons.FirstOrDefault(p => p.Name == personName);
-    if (person is not null && product is not null)
-    {
-        Console.WriteLine(persons.Find(p => p.Name == personName).BuyProduct(product));
-    }
+    var product = new Product(productName, productPrices.First(p => p.Key == productName).Value);
+    Console.WriteLine(persons.Find(p => p.Name == personName).BuyProduct(product));
 }
 
 foreach (var person in persons)
