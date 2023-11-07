@@ -3,19 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DefineAnInterfaceIPerson", "01.DefineAnInterfaceIPerson\01.DefineAnInterfaceIPerson.csproj", "{E8BA3106-C572-45D6-B075-AE1A1494E57F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.DefineAnInterfaceIPerson", "01.DefineAnInterfaceIPerson\01.DefineAnInterfaceIPerson.csproj", "{E8BA3106-C572-45D6-B075-AE1A1494E57F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MultipleImplementation", "02.MultipleImplementation\02.MultipleImplementation.csproj", "{42A64480-833E-4E4A-9DC2-27303EC139D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.MultipleImplementation", "02.MultipleImplementation\02.MultipleImplementation.csproj", "{42A64480-833E-4E4A-9DC2-27303EC139D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Telephony", "03.Telephony\03.Telephony.csproj", "{0582877B-2715-4D65-A627-938E2FDB7B64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Telephony", "03.Telephony\03.Telephony.csproj", "{0582877B-2715-4D65-A627-938E2FDB7B64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.BorderControl", "04.BorderControl\04.BorderControl.csproj", "{55723D5C-AAE3-4428-8CAC-523873B49FF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.BorderControl", "04.BorderControl\04.BorderControl.csproj", "{55723D5C-AAE3-4428-8CAC-523873B49FF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.BirthdayCelebrations", "05.BirthdayCelebrations\05.BirthdayCelebrations.csproj", "{DD9C862B-025E-41C7-9351-6B968FF5CAF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.BirthdayCelebrations", "05.BirthdayCelebrations\05.BirthdayCelebrations.csproj", "{DD9C862B-025E-41C7-9351-6B968FF5CAF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.FoodShortage", "06.FoodShortage\06.FoodShortage.csproj", "{FC82B320-4C4E-44E8-9C4F-37F9E96A4F1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.FoodShortage", "06.FoodShortage\06.FoodShortage.csproj", "{FC82B320-4C4E-44E8-9C4F-37F9E96A4F1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.MilitaryElite", "07.MilitaryElite\07.MilitaryElite.csproj", "{25791AC6-569F-4151-A48E-A0F707619F6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.MilitaryElite", "07.MilitaryElite\07.MilitaryElite.csproj", "{25791AC6-569F-4151-A48E-A0F707619F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.CollectionHierarchy", "08.CollectionHierarchy\08.CollectionHierarchy.csproj", "{C9CB1043-F24B-4394-A5B5-2157FEAD3B11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.ExplicitInterfaces", "09.ExplicitInterfaces\09.ExplicitInterfaces.csproj", "{0D236207-4362-4455-A75A-89062F079EF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{25791AC6-569F-4151-A48E-A0F707619F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25791AC6-569F-4151-A48E-A0F707619F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25791AC6-569F-4151-A48E-A0F707619F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9CB1043-F24B-4394-A5B5-2157FEAD3B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9CB1043-F24B-4394-A5B5-2157FEAD3B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9CB1043-F24B-4394-A5B5-2157FEAD3B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9CB1043-F24B-4394-A5B5-2157FEAD3B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D236207-4362-4455-A75A-89062F079EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D236207-4362-4455-A75A-89062F079EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D236207-4362-4455-A75A-89062F079EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D236207-4362-4455-A75A-89062F079EF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
